@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    --red: #FF0000;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+    
+body{
+    background-color: var(--red);
+}
+
+@media screen and (min-width: 300px){
+    nav li a{
+        display: inline;  
+        margin: 3em;
+        padding: 1em;
+        border: 0.025em solid var(--black);
+        text-decoration: none;
+        background-color: var(--white);
+        color: var(--black);
+        border-radius: 0.02em;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    nav li a{
+        display: inline;  
+        margin: 3em;
+        padding: 1em;
+        border: 0.05 solid var(--black);
+        background-color: var(--white);
+        text-decoration: none;
+        color: var(--black);
+        border-radius: 0em;
+    }
+}
+
+nav li{
+    display: inline;
+    background-color: none;
+    text-decoration: none;
+}
+
+h1{
+    margin: 1em;
+}
+
+header p{
+    color: var(--white);
+}
+
+header nav{
+    margin-top: 0em;
+    /*border-top: 0.15em solid var(--black);*/
+    border-bottom: 0.15em solid var(--black);
+    padding: 0.90em;
+    padding-bottom: 0.81;
+    background-image: url(manutdcrest);
+    background-color: var(--white);
+    background-size: 3em;
+}
+
+nav a:hover{
+    background-color: var(--red);
+    color: var(--black);
+    border: 0.02em solid var(--black);
+}
+
+nav a[href=""]{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+header, #secondHeading, #secondPara, main > section > h1{
+    text-align: center;
+}
+
+#secondPara{
+    color: var(--white);
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.part1a{
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#oldtrafford:hover, #statue:hover, #alex1:hover, #champs:hover, #ole:hover{
+    transform: scale(1.05);
+}
+
+#oldtrafford{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#statue{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#alex1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+figure{
+    background-color: var(--black);
+    color: var(--white);
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+figure a:hover{
+    color: var(--red);
+}
+
+img{
+    width: 100%;
+}
+
+section h1 + p{
+    margin: 1em;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.firstImage{
+    background-image: url(manutdcrest);
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    background-color: var(--white);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#champs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#ole{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#alex2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#lastPara{
+    margin: 1em;
+    padding: 1em;
+}
+
+.row1, .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column1, .column2{
+    margin: auto;
+    padding: 1em;
+    flex-basis: 40%;
+}
+
+.row1, .row2{
+    margin-top: 1em;
+}
+
+.row2{
+    margin-bottom: 1em;
+}
+
+.column1:hover, .column2:hover{
+    transform: scale(1.05);
+}
+
+aside{
+    margin: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
